@@ -1,6 +1,7 @@
-#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    //在此输入你的代码
     return 0;
 }

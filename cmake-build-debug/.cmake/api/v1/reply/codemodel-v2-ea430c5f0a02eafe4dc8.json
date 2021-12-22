@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "pat_test",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -38,9 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "pat_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pat_test-Debug-9034881c14f8b1714332.json",
-					"name" : "pat_test",
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-7f80cc72a3df82921d0c.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-87049384bbc44c9f3c98.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p5-B1001::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p5-B1001-Debug-d4e4642b88abbd5e615a.json",
+					"name" : "p5-B1001",
 					"projectIndex" : 0
 				}
 			]
