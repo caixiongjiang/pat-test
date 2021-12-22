@@ -1,0 +1,3 @@
+/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/pat_test.dir
