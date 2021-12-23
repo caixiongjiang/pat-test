@@ -41,6 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target p29-B1041
+
+
+#############################################
+# Order-only phony target for p29-B1041
+
+build cmake_object_order_depends_target_p29-B1041: phony || CMakeFiles/p29-B1041.dir
+
+build CMakeFiles/p29-B1041.dir/第3章_入门模拟/3.2_查找元素/p29-B1041.cpp.o: CXX_COMPILER__p29-B1041_Debug /Users/jarsonsmac/CLionProjects/pat-test/第3章$ 入门模拟/3.2$ 查找元素/p29-B1041.cpp || cmake_object_order_depends_target_p29-B1041
+  DEP_FILE = CMakeFiles/p29-B1041.dir/第3章_入门模拟/3.2_查找元素/p29-B1041.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/p29-B1041.dir
+  OBJECT_FILE_DIR = CMakeFiles/p29-B1041.dir/第3章_入门模拟/3.2_查找元素
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p29-B1041
+
+
+#############################################
+# Link the executable p29-B1041
+
+build p29-B1041: CXX_EXECUTABLE_LINKER__p29-B1041_Debug CMakeFiles/p29-B1041.dir/第3章_入门模拟/3.2_查找元素/p29-B1041.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/p29-B1041.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = p29-B1041
+  TARGET_PDB = p29-B1041.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target p5-B1001
 
 
@@ -104,6 +135,17 @@ build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
 
 
 #############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
@@ -113,17 +155,6 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -167,7 +198,7 @@ build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeF
 #############################################
 # Folder: /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug
 
-build all: phony p5-B1001 main CMakeCXXCompilerId
+build all: phony p29-B1041 p5-B1001 main CMakeCXXCompilerId
 
 # =============================================================================
 # Built-in targets
