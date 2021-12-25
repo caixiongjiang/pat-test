@@ -3,6 +3,7 @@
     -- src/main.cpp will be compiled to bin/main
     -- src/p5-B1001.cpp will be compiled to bin/p5-B1001
     -- src/p29-B1041.cpp will be compiled to bin/p29-B1041
+    -- src/P235-A1047.cpp will be compiled to bin/P235-A1047
     -- src/p233-A1039.cpp will be compiled to bin/p233-A1039
 -- Configuring done
 -- Generating done
