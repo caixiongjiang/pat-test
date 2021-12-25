@@ -1,6 +1,7 @@
+/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/p29-B1041.dir
 /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/p5-B1001.dir
-/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/main.dir
-/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
+/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/p233-A1039.dir
+/Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/CMakeFiles/main.dir

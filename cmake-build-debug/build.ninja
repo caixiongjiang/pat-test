@@ -40,6 +40,17 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 # =============================================================================
 # Object build statements for EXECUTABLE target p29-B1041
 
@@ -102,48 +113,6 @@ build p5-B1001: CXX_EXECUTABLE_LINKER__p5-B1001_Debug CMakeFiles/p5-B1001.dir/�
   TARGET_FILE = p5-B1001
   TARGET_PDB = p5-B1001.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target main
-
-
-#############################################
-# Order-only phony target for main
-
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
-
-build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/jarsonsmac/CLionProjects/pat-test/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/main.dir
-  OBJECT_FILE_DIR = CMakeFiles/main.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main
-
-
-#############################################
-# Link the executable main
-
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
-  OBJECT_DIR = CMakeFiles/main.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = main
-  TARGET_PDB = main.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 
 #############################################
 # Utility command for rebuild_cache
@@ -188,6 +157,68 @@ build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeF
   TARGET_PDB = CMakeCXXCompilerId.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p233-A1039
+
+
+#############################################
+# Order-only phony target for p233-A1039
+
+build cmake_object_order_depends_target_p233-A1039: phony || CMakeFiles/p233-A1039.dir
+
+build CMakeFiles/p233-A1039.dir/第6章_STL标准库/6.1_vector常见用法详解/p233-A1039.cpp.o: CXX_COMPILER__p233-A1039_Debug /Users/jarsonsmac/CLionProjects/pat-test/第6章$ STL标准库/6.1$ vector常见用法详解/p233-A1039.cpp || cmake_object_order_depends_target_p233-A1039
+  DEP_FILE = CMakeFiles/p233-A1039.dir/第6章_STL标准库/6.1_vector常见用法详解/p233-A1039.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/p233-A1039.dir
+  OBJECT_FILE_DIR = CMakeFiles/p233-A1039.dir/第6章_STL标准库/6.1_vector常见用法详解
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p233-A1039
+
+
+#############################################
+# Link the executable p233-A1039
+
+build p233-A1039: CXX_EXECUTABLE_LINKER__p233-A1039_Debug CMakeFiles/p233-A1039.dir/第6章_STL标准库/6.1_vector常见用法详解/p233-A1039.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/p233-A1039.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = p233-A1039
+  TARGET_PDB = p233-A1039.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/jarsonsmac/CLionProjects/pat-test/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main
+
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main
+  TARGET_PDB = main.dbg
+
+# =============================================================================
 # Target aliases.
 
 # =============================================================================
@@ -198,7 +229,7 @@ build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeF
 #############################################
 # Folder: /Users/jarsonsmac/CLionProjects/pat-test/cmake-build-debug
 
-build all: phony p29-B1041 p5-B1001 main CMakeCXXCompilerId
+build all: phony p29-B1041 p5-B1001 CMakeCXXCompilerId p233-A1039 main
 
 # =============================================================================
 # Built-in targets
